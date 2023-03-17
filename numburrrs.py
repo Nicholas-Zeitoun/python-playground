@@ -10,3 +10,4 @@ squared = 5 ** 2
 print(squared)
 twoToThePowerOfSeven = 2 ** 7
 print(twoToThePowerOfSeven)
+print(undefinedVariable)
