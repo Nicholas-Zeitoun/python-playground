@@ -10,4 +10,6 @@ squared = 5 ** 2
 print(squared)
 twoToThePowerOfSeven = 2 ** 7
 print(twoToThePowerOfSeven)
-print(undefinedVariable)
+# print(undefinedVariable) # try to access an undefined variable
+floatingPoint = 4 * 3.75 - 1
+print(floatingPoint)
