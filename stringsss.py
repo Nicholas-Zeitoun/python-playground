@@ -6,3 +6,5 @@ print("\"Yes,\" they said.")
 print('"Isn\'t," they said.')
 s = 'First line.\nSecond line.' # \n means newline
 print(s)  # with print(), \n produces a new line
+print('\C:\some\name') # here \n means newline!
+print(r'C:\some\name') # r before the quote
