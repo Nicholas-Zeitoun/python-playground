@@ -8,3 +8,8 @@ s = 'First line.\nSecond line.' # \n means newline
 print(s)  # with print(), \n produces a new line
 print('\C:\some\name') # here \n means newline!
 print(r'C:\some\name') # r before the quote
+print("""\
+Usage: thingy [OPTIONS]
+     -h                        Display this usage message
+     -H hostname               Hostname to connect to
+""")
