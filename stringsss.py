@@ -13,3 +13,4 @@ Usage: thingy [OPTIONS]
      -h                        Display this usage message
      -H hostname               Hostname to connect to
 """)
+print(3 * 'un' + 'ium')
