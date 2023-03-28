@@ -14,3 +14,4 @@ Usage: thingy [OPTIONS]
      -H hostname               Hostname to connect to
 """)
 print(3 * 'un' + 'ium')
+print('Py' 'thon') # String literals automatically concatenated
