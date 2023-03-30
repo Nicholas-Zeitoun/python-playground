@@ -15,3 +15,6 @@ Usage: thingy [OPTIONS]
 """)
 print(3 * 'un' + 'ium')
 print('Py' 'thon') # String literals automatically concatenated
+text = ('Put several strings within parentheses '
+        'to have them joined together.')
+print(text)
