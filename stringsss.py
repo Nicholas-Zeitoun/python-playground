@@ -18,3 +18,6 @@ print('Py' 'thon') # String literals automatically concatenated
 text = ('Put several strings within parentheses '
         'to have them joined together.')
 print(text)
+prefix = 'Py'
+# prefix 'thon' # can;t concatenate a variable and a string
+print(prefix + 'thon')
