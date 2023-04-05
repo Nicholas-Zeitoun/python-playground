@@ -21,3 +21,6 @@ print(text)
 prefix = 'Py'
 # prefix 'thon' # can;t concatenate a variable and a string
 print(prefix + 'thon')
+word = 'Python'
+print(word[0])
+print(word[5])
