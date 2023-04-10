@@ -24,3 +24,5 @@ print(prefix + 'thon')
 word = 'Python'
 print(word[0])
 print(word[5])
+print(word[-1]) # last character
+print(word[-2]) # second last character
