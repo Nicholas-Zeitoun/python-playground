@@ -28,3 +28,5 @@ print(word[-1]) # last character
 print(word[-2]) # second last character
 print(word[0:2]) # slicing: characters from position 0 (included) to 2 (excluded)
 print(word[2:5]) # characters from position 2 (included to 5 (excluded)
+print(word[4:42]) # out of range slice
+print(word[42:])
