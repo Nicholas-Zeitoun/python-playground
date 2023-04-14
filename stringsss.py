@@ -33,3 +33,5 @@ print(word[42:])
 newWord = 'J' + word[1:]
 print(newWord)
 print(word[:2] + 'py')
+s = 'supercalifragilisticexpialidocious'
+print(len(s)) # built in function len() returns length of a string
