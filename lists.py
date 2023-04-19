@@ -10,3 +10,6 @@ cubes = [1, 8, 27, 65, 125] # somethigns wrong here!
 print(cubes)
 cubes[3] = 64 # lists are not immutable
 print(cubes)
+cubes.append(216)  # add the cube of 6
+cubes.append(7 ** 3)
+print(cubes)
