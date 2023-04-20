@@ -13,3 +13,7 @@ print(cubes)
 cubes.append(216)  # add the cube of 6
 cubes.append(7 ** 3)
 print(cubes)
+letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+print(letters)
+letters[2:5] = ['C', 'D', 'E']
+print(letters)
