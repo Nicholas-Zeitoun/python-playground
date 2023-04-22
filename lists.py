@@ -15,5 +15,9 @@ cubes.append(7 ** 3)
 print(cubes)
 letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
 print(letters)
-letters[2:5] = ['C', 'D', 'E']
+letters[2:5] = ['C', 'D', 'E'] # assignment to slices. Can also change list size
+print(letters)
+letters[2:5] = [] # remove letters from index 2 - 5
+print(letters)
+letters[:] = [] # replace all the elements with an empty list
 print(letters)
