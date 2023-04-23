@@ -21,3 +21,5 @@ letters[2:5] = [] # remove letters from index 2 - 5
 print(letters)
 letters[:] = [] # replace all the elements with an empty list
 print(letters)
+letters = ['a', 'b', 'c', 'd'] # built in len functio for lists
+print(len(letters))
