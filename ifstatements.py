@@ -32,3 +32,7 @@ for user, status in users.items():
         active_users[user] = status
 
 print(users)
+
+# Range function
+for i in range(5):
+    print(i)
