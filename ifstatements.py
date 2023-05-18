@@ -45,3 +45,6 @@ print(list(range(-10, -100, -30))) # Step of -30
 a = ['Mary', 'had', 'a', 'little', 'lamb']
 for i in range(len(a)):
     print(i, a[i])
+
+# How bizarre
+print(range(10))
