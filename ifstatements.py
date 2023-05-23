@@ -48,3 +48,6 @@ for i in range(len(a)):
 
 # How bizarre
 print(range(10))
+
+# sum range
+print(sum(range(4)))
