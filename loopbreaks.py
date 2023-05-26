@@ -13,3 +13,11 @@ for num in range(2, 10):
         print("Found an even number", num)
         continue
     print("Found an odd number", num)
+
+# Pass statement
+while True:
+    pass  # Busy-wait for keyboard interrupt (Ctrl+C)
+
+# creating minimal class
+class MyEmptyClass:
+    pass
