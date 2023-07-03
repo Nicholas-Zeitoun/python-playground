@@ -15,9 +15,25 @@ for num in range(2, 10):
     print("Found an odd number", num)
 
 # Pass statement
-while True:
-    pass  # Busy-wait for keyboard interrupt (Ctrl+C)
+#while True:
+#    pass  # Busy-wait for keyboard interrupt (Ctrl+C)
 
 # creating minimal class
 class MyEmptyClass:
     pass
+
+def initlog(*args):
+    pass   # Remember to implement this!
+
+def http_error(status):
+    match status:
+        case 400:
+            return "Bad request"
+        case 404:
+            return "Not found"
+        case 418:
+            return "I'm a teapot"
+        case _:
+            return "Something's wrong with the internet"
+        
+print(http_error(400))
