@@ -22,3 +22,5 @@ match points:
         print(f"Two on the Y axis at {y1}, {y2}")
     case _:
         print("Something else")
+
+print("hi :)")
